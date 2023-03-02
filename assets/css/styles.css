@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url(header.css);
+@import url(home.css);
+@import url(portifolio.css);
+@import url(quem-somos.css);
+@import url(servicos.css);
+@import url(acessorios.css);
+@import url(contato.css);
+@import url(footer.css);
+
+:root {
+  --verde: #9ec556;
+  --cinza: #343435;
+  --cinza-claro: #a1a1a1;
+  --cinza-muito-claro: #d9d9d9;
+  --branco: #ffff;
+  --preto: #000;
+  --fonte: "Roboto", sans-serif;
+  --light: 300;
+  --regular: 400;
+  --bold: 700;
+  --font-size: 16px;
+}
+
+body {
+  background-color: var(--branco);
+  font-family: var(--fonte);
+  font-size: var(--font-size);
+  font-weight: var(--regular);
+}
+
+main {
+  margin-top: 10vh;
+}

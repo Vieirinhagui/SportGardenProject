@@ -1,0 +1,24 @@
+#quem-somos {
+  padding: 2rem;
+  background-color: var(--verde);
+}
+.titulo-quem-somos {
+  font-weight: var(--light);
+  text-align: left;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: var(--cinza);
+}
+
+.span-quem-somos {
+  font-weight: var(--bold);
+  font-family: var(--fonte);
+  font-size: 3rem;
+}
+
+.-texto-quem-somos {
+  font-weight: var(--regular);
+  font-family: var(--fonte);
+  color: var(--cinza);
+}
