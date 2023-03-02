@@ -92,11 +92,12 @@
   background-color: var(--cinza-muito-claro);
   border-radius: 8px;
   border: none;
-  padding: .5rem; 
+  padding: 1.2rem .5rem; 
   color: var(--cinza);
 }
 .contato form textarea {
   height: 5rem;
+  padding-top: .5rem;
 }
 input::placeholder,
 .contato form textarea::placeholder {
