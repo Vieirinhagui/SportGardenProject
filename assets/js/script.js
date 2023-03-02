@@ -37,3 +37,7 @@ $(".click").click(function () {
     $("#fundo-menu").css("display", "none");
   }, 450);
 });
+
+$("#img-scroll").click(function(){
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+});
