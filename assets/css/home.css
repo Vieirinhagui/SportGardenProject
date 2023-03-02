@@ -2,4 +2,18 @@
   width: 100vw;
   height: 90vh;
   background-color: var(--cinza);
+  overflow: hidden;
+}
+#home .swiper-slide img {
+  width: 200vw;
+  height: 90vh;
+}
+#home .swiper-slide {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#home .swiperhome{
+  width: 400vw;
 }
