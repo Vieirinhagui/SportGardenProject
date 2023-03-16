@@ -31,18 +31,35 @@
   opacity: 90%;
   position: relative;
 }
-
-.saibro summary,
-.asfaltico summary {
+.saibro h2, .asfaltico h2{
   position: absolute;
   font-size: 1.1rem;
-  font-weight: var(--light);
+  font-weight: var(--regular);
   color: var(--cinza);
   background-color: var(--verde);
   width: 33%;
   height: 4rem;
+  padding: .8rem;
   border-radius: 0 15px 0 0;
   left: 0;
+  bottom: 0;
+  text-align: center;
+}
+.asfaltico h2{
+  width: 40%;
+}
+.saibro summary,
+.asfaltico summary {
+  position: absolute;
+  font-size: .8rem;
+  font-weight: var(--regular);
+  color: var(--cinza);
+  background-color: var(--verde);
+  width: auto;
+  height: 2rem;
+  padding: .8rem;
+  border-radius: 15px 0 0 0;
+  right: 0;
   bottom: 0;
   margin: 0;
   text-align: center;
@@ -52,11 +69,8 @@
   flex-wrap: wrap;
   flex-direction: column;
 }
-.asfaltico summary {
-  width: 45%;
-}
-.saibro summary span,
-.asfaltico summary span {
+.saibro h2 span,
+.asfaltico h2 span {
   font-size: 1.5rem;
   font-weight: var(--bold);
   color: var(--cinza);
