@@ -3,6 +3,7 @@
   height: 90vh;
   background-color: var(--cinza);
   overflow: hidden;
+  margin-top: 10vh;
 }
 #home .swiper-slide img {
   width: 200vw;
