@@ -9,6 +9,7 @@
   font-size: 2.5rem;
   text-transform: uppercase;
   color: var(--cinza);
+  width: 30vw;
 }
 
 .span-quem-somos {
@@ -17,8 +18,40 @@
   font-size: 3rem;
 }
 
-.-texto-quem-somos {
+.texto-quem-somos {
   font-weight: var(--regular);
   font-family: var(--fonte);
   color: var(--cinza);
+}
+
+#img-quem-somos{
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  #img-quem-somos{
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #quem-somos{
+    padding: 0;
+  }
+  .quem-somos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap:7rem;
+  }
+  .quem-somos-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .quem-somos .texto-quem-somos{
+    width: 50vw;
+  }
+  #img-quem-somos{
+    display: block;
+    width: 30vw;
+  }
 }

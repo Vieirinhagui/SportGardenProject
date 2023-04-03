@@ -18,46 +18,60 @@
   width: 80vw;
 }
 .saibro,
-.asfaltico {
+.asfaltico,
+.areia,
+.poliesportiva,
+.grama {
   position: relative;
   width: 100vw;
   height: 32vh;
   margin: 0 0 3.5rem 0;
 }
 .saibro img,
-.asfaltico img {
+.asfaltico img,
+.areia img,
+.poliesportiva img,
+.grama img {
   width: 100%;
   height: 100%;
   opacity: 90%;
   position: relative;
 }
-.saibro h2, .asfaltico h2{
+.saibro h2,
+.asfaltico h2,
+.areia h2,
+.poliesportiva h2,
+.grama h2 {
   position: absolute;
   font-size: 1.1rem;
   font-weight: var(--regular);
   color: var(--cinza);
   background-color: var(--verde);
-  width: 33%;
+  width: 60%;
   height: 4rem;
-  padding: .5rem .8rem ;
+  padding: 0.5rem 0.8rem;
   border-radius: 0 15px 0 0;
   left: 0;
   bottom: 0;
   text-align: center;
 }
-.asfaltico h2{
+.grama h2,
+.areia h2 {
   width: 40%;
 }
 .saibro summary,
-.asfaltico summary {
+.asfaltico summary,
+.areia summary,
+.poliesportiva summary,
+.grama summary {
   position: absolute;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: var(--regular);
   color: var(--cinza);
   background-color: var(--verde);
   width: auto;
   height: 2rem;
-  padding: .8rem;
+  padding: 0.8rem;
   border-radius: 15px 0 0 0;
   right: 0;
   bottom: 0;
@@ -70,13 +84,19 @@
   flex-direction: column;
 }
 .saibro h2 span,
-.asfaltico h2 span {
-  font-size: 1.5rem;
+.asfaltico h2 span,
+.areia h2 span,
+.poliesportiva h2 span,
+.grama h2 span {
+  font-size: 1.3rem;
   font-weight: var(--bold);
   color: var(--cinza);
 }
 .info-saibro,
-.info-asfaltico {
+.info-asfaltico,
+.info-areia,
+.info-poliesportiva,
+.info-grama {
   display: flex;
   flex-direction: column;
   background-color: var(--verde);
@@ -86,12 +106,15 @@
   padding-top: 2rem;
   padding-bottom: 1rem;
   border-radius: 0 0 20px 20px;
-  -webkit-box-shadow: 0px 20px 50px 1px rgba(0, 0, 0, 0.60);
-  -moz-box-shadow: 0px 20px 50px 1px rgba(0, 0, 0, 0.60);
-  box-shadow: 0px 20px 50px 1px rgba(0, 0, 0, 0.60);
+  -webkit-box-shadow: 0px 20px 50px 1px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 20px 50px 1px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 20px 50px 1px rgba(0, 0, 0, 0.6);
 }
 .info-saibro img,
-.info-asfaltico img {
+.info-asfaltico img,
+.info-areia img,
+.info-poliesportiva img,
+.info-grama img {
   width: 80vw;
   height: 30%;
   margin: 1rem 10vw;
@@ -117,4 +140,91 @@ summary::-webkit-details-marker {
   font-size: 1.2em;
   text-align: center;
   margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .container-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .saibro,
+  .asfaltico,
+  .areia,
+  .poliesportiva,
+  .grama {
+    width: 48vw;
+    margin: 0 0 1rem 0;
+  }
+  .poliesportiva h2 {
+    width: 60%;
+  }
+
+  .info-saibro,
+  .info-asfaltico,
+  .info-areia,
+  .info-poliesportiva,
+  .info-grama {
+    width: 99vw;
+    align-items: center;
+  }
+  .info-saibro,
+  .info-grama {
+    left: -50vw;
+  }
+  .info-poliesportiva{
+    left: -53%;
+  }
+  .info-saibro img,
+  .info-asfaltico img,
+  .info-areia img,
+  .info-poliesportiva img,
+  .info-grama img {
+    width: 50vw;
+  }
+}
+@media screen and (min-width:1200px) {
+  .container-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .saibro,
+  .asfaltico,
+  .areia,
+  .poliesportiva,
+  .grama {
+    width: 30vw;
+    margin: 0 0 1rem 0;
+  }
+  .poliesportiva h2 {
+    width: 60%;
+  }
+
+  .info-saibro,
+  .info-asfaltico,
+  .info-areia,
+  .info-poliesportiva,
+  .info-grama {
+    width: 99vw;
+    align-items: center;
+  }
+  .info-saibro,
+  .info-grama {
+    left: -50vw;
+  }
+  .info-poliesportiva{
+    left: -53%;
+  }
+  .info-saibro img,
+  .info-asfaltico img,
+  .info-areia img,
+  .info-poliesportiva img,
+  .info-grama img {
+    width: 50vw;
+  }
 }

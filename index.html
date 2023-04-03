@@ -31,7 +31,9 @@
   <body>
     <header>
       <nav>
-        <a href="#home"><img src="assets/img/logo.png" alt="Logo SportGarden" /></a>
+        <a href="#home"
+          ><img src="assets/img/logo.png" alt="Logo SportGarden"
+        /></a>
         <div class="menu-hamburguer">
           <span class="menu-barra"></span>
           <span class="menu-barra"></span>
@@ -50,6 +52,13 @@
             <h3 class="click"><a href="#acessorios">Acessórios</a></h3>
             <h3 class="click"><a href="#contato">Contato</a></h3>
           </div>
+        </div>
+        <div class="menu-desktop">
+          <h3 class="click"><a href="#portifolio">Portifólio</a></h3>
+          <h3 class="click"><a href="#quem-somos">Quem Somos</a></h3>
+          <h3 class="click"><a href="#servicos">Serviços</a></h3>
+          <h3 class="click"><a href="#acessorios">Acessórios</a></h3>
+          <h3 class="click"><a href="#contato">Contato</a></h3>
         </div>
       </nav>
     </header>
@@ -126,22 +135,29 @@
       </section>
       <section id="quem-somos">
         <div class="quem-somos">
-          <h1 class="titulo-quem-somos">
-            Quem <br />
-            <span class="span-quem-somos">Somos?</span>
-          </h1>
-          <p class="texto-quem-somos">
-            A Sports Garden atua no mercado de construção, reformas e manutenção
-            de quadras de esportes de diversas modalidades. Seja em clubes,
-            condomínios ou residências, o conhecimento, experiência e
-            compromisso garantem a melhor solução adequada ao tamanho do seu
-            orçamento. Empresa especialista na construção de quadras de tênis
-            com o piso asfáltico, saibro e grama sintética, executa a construção
-            desde o alicerce até a estrutura final de sua quadra, possui um
-            portfólio bastante diversificado no Brasil inteiro, alta
-            durabilidade e condições extraordinárias para o perfeito
-            funcionamento da prática amadora e profissional de esportes.
-          </p>
+          <div class="quem-somos-container">
+            <h1 class="titulo-quem-somos">
+              Quem <br />
+              <span class="span-quem-somos">Somos?</span>
+            </h1>
+            
+            <p class="texto-quem-somos">
+              A Sports Garden atua no mercado de construção, reformas e
+              manutenção de quadras de esportes de diversas modalidades. Seja em
+              clubes, condomínios ou residências, o conhecimento, experiência e
+              compromisso garantem a melhor solução adequada ao tamanho do seu
+              orçamento. Empresa especialista na construção de quadras de tênis
+              com o piso asfáltico, saibro e grama sintética, executa a
+              construção desde o alicerce até a estrutura final de sua quadra,
+              possui um portfólio bastante diversificado no Brasil inteiro, alta
+              durabilidade e condições extraordinárias para o perfeito
+              funcionamento da prática amadora e profissional de esportes.
+            </p>
+          </div>
+          <div class="img-quem-somos">
+            <img src="assets\img\portifolio\img-quem-somos.jpeg" alt="Imagem Quem Somos" id="img-quem-somos"/>
+          </div>
+          
         </div>
       </section>
       <section id="servicos">
@@ -154,12 +170,99 @@
             ótimo atendimento ao cliente.
           </p>
           <div class="container-servicos">
+            <div class="areia">
+              <img
+                src="assets\img\portifolio\img-beach2.jpeg"
+                alt="Imagem de quadra de BeachTenis"
+              />
+              <h2>Quadras de <br><span>AREIA</span></h2>
+              <details>
+                <summary>VER DETALHES</summary>
+
+                <div class="info-areia">
+                  <p>
+                    É especifico para quadras de tênis, aplicado sobre uma base
+                    perfeitamente nivelada e compactada temos como resultado um
+                    piso de alta qualidade e de rápida drenagem. A liga de
+                    saibro utilizada é cuidadosamente selecionada e foi
+                    desenvolvida com base em estudos e testes práticos. O
+                    sistema construtivo adotado visa a garantir um alto padrão
+                    de qualidade e performance da quadra. As linhas
+                    demarcatórias são em PVC, fixadas no piso com pregos
+                    especiais.
+                  </p>
+                  <img
+                    src="assets\img\piso-saibro.png"
+                    alt="Imagem ilustrativa das camadas de uma quadra de tenis com piso de Saibro"
+                  />
+                </div>
+              </details>
+            </div>
+            <div class="grama">
+              <img
+                src="assets\img\portifolio\img-asfaltica4.jpeg"
+                alt="Imagem de quadra de tenis com piso de grama"
+              />
+              <h2>
+                Quadras de <br />
+                <span>GRAMA</span>
+              </h2>
+              <details id="grama">
+                <summary>VER DETALHES</summary>
+                <div class="info-grama">
+                  <p>
+                    Execução de base asfáltica composta de camada de po de
+                    pedra, pedra 1 e pedrisco, emulsionadas em asfalto,
+                    niveladas e compactadas. Aplicação de lama asfáltica
+                    selante. Aplicação de camada de resina acrílica
+                    regularizadora. Aplicação de camada de acabamento acrílico
+                    colorido. Demarcação das linhas de jogo com tinta acrílica
+                    especial.
+                  </p>
+                  <img
+                    src="assets\img\piso-asfaltico.png"
+                    alt="Imagem ilustrativa das camadas de uma quadra de tenis com piso de grama"
+                  />
+                </div>
+              </details>
+            </div>
+            <div class="asfaltico">
+              <img
+                src="assets\img\portifolio\img-asfaltica4.jpeg"
+                alt="Imagem de quadra de tenis com piso Asfaltico"
+              />
+              <h2>
+                Quadra de Tenis <br />
+                <span>PISO ASFÁLTICO</span>
+              </h2>
+              <details id="asfaltico">
+                <summary>VER DETALHES</summary>
+                <div class="info-asfaltico">
+                  <p>
+                    Execução de base asfáltica composta de camada de po de
+                    pedra, pedra 1 e pedrisco, emulsionadas em asfalto,
+                    niveladas e compactadas. Aplicação de lama asfáltica
+                    selante. Aplicação de camada de resina acrílica
+                    regularizadora. Aplicação de camada de acabamento acrílico
+                    colorido. Demarcação das linhas de jogo com tinta acrílica
+                    especial.
+                  </p>
+                  <img
+                    src="assets\img\piso-asfaltico.png"
+                    alt="Imagem ilustrativa das camadas de uma quadra de tenis com piso asfaltico"
+                  />
+                </div>
+              </details>
+            </div>
             <div class="saibro">
               <img
                 src="assets\img\portifolio\img-saibro3.jpeg"
                 alt="Imagem de quadra de tenis com piso de Saibro"
               />
-              <h2>Piso <span>SAIBRO</span></h2>
+              <h2>
+                Quadra de Tenis <br />
+                <span>PISO SAIBRO</span>
+              </h2>
               <details>
                 <summary>VER DETALHES</summary>
 
@@ -182,15 +285,18 @@
                 </div>
               </details>
             </div>
-            <div class="asfaltico">
+            <div class="poliesportiva">
               <img
                 src="assets\img\portifolio\img-asfaltica4.jpeg"
                 alt="Imagem de quadra de tenis com piso Asfaltico"
               />
-              <h2>Piso <br> <span>ASFÁLTICO</span></h2>
-              <details id="asfaltico">
+              <h2>
+                Quadras<br />
+                <span>POLIESPORTIVAS</span>
+              </h2>
+              <details id="poliesportiva">
                 <summary>VER DETALHES</summary>
-                <div class="info-asfaltico">
+                <div class="info-poliesportiva">
                   <p>
                     Execução de base asfáltica composta de camada de po de
                     pedra, pedra 1 e pedrisco, emulsionadas em asfalto,
@@ -202,7 +308,7 @@
                   </p>
                   <img
                     src="assets\img\piso-asfaltico.png"
-                    alt="Imagem ilustrativa das camadas de uma quadra de tenis com piso asfaltico"
+                    alt="Imagem ilustrativa das camadas de uma quadra de tenis com piso poliesportivo"
                   />
                 </div>
               </details>

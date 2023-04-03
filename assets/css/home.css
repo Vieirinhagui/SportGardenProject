@@ -18,3 +18,28 @@
 #home .swiperhome{
   width: 400vw;
 }
+
+
+@media screen and (min-width: 768px) {
+  #home .swiper-slide img {
+    width: 100vw;
+    height: 90vh;
+  }
+  #home .swiperhome{
+    width: 200vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #home{
+    height: 115vh;
+    background-color: var(--white);
+  }
+  #home .swiper-slide img {
+    width: 100vw;
+    height: 115vh;
+  }
+
+  #home .swiperhome{
+    width: 200vw;
+  }
+}

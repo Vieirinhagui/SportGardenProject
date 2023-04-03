@@ -3,6 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 2rem;
+  padding-top: 5rem;
 }
 .contato {
   background-color: var(--branco);
@@ -119,4 +120,9 @@ input::placeholder,
   font-size: 18px;
   font-weight: 400;
   border: none;
+}
+
+
+@media screen and (min-width: 768px) {
+
 }

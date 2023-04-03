@@ -54,6 +54,9 @@ nav .menu-hamburguer {
   width: 30px;
   z-index: 10;
 }
+.menu-desktop {
+  display: none;
+}
 .menu {
   position: fixed;
   width: 60vw;
@@ -106,5 +109,26 @@ nav .menu-hamburguer {
   }
   to {
     right: -80vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  nav img {
+    width: 40vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  nav img {
+    width: 20vw;
+  }
+
+  nav .menu-hamburguer,
+  #fundo-menu {
+    display: none;
+  }
+  .menu-desktop {
+    display: flex;
+    gap: 4rem;
   }
 }
