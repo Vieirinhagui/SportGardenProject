@@ -1,0 +1,42 @@
+#aba-servicos{
+    width: 100vw;
+    padding: 15vh 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#aba-servicos .conteudo-servicos{
+    padding: 2rem;
+}
+#aba-servicos .conteudo-servicos h1{
+    font-size: 2.5rem;
+    color: var(--cinza);
+    margin-bottom: 1rem;
+}
+.aba-servicos details{
+    padding: 1rem 2rem;
+    border-bottom: 2px solid #37343531;
+    color: var(--cinza);
+    font-weight: var(--regular);
+}
+
+.aba-servicos details summary{
+    font-weight: var(--bold);
+    font-size: 1.5rem;
+}
+.aba-servicos details:nth-child(5){
+    margin-bottom: 6rem;
+}
+
+.aba-servicos details img{
+    width: 85vw;
+    padding: 1rem 0;
+}
+
+.aba-servicos details[open] summary{
+    color: var(--preto);
+}
+.aba-servicos details summary:hover{
+    cursor: pointer;
+}
+

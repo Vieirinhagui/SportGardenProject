@@ -29,8 +29,9 @@
     width: 200vw;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   #home{
+    overflow-x: hidden;
     height: 115vh;
     background-color: var(--white);
   }

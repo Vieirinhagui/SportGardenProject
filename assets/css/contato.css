@@ -1,20 +1,26 @@
 #contato {
-  background-image: url(../img/fundo-contato.jpeg);
-  background-size: cover;
+  background-image: url(../img/fundo.jpg);
   background-repeat: no-repeat;
-  padding-bottom: 2rem;
-  padding-top: 5rem;
+  background-position: center;
+  background-size: cover;
+  background-color: var(--verde);
+  padding: 5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .contato {
   background-color: var(--branco);
   width: 90vw;
-  margin: 0 5vw 5rem 5vw;
   border-radius: 20px;
   box-shadow: 3px -2px 4px rgba(0, 0, 0, 0.25);
-  padding: 2rem 0;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 .contato h1 {
-  font-size: 40px;
+  font-size: 36px;
   font-weight: var(--light);
   color: var(--cinza);
   text-align: center;
@@ -22,7 +28,7 @@
 }
 
 .contato h1 span {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: var(--bold);
   color: var(--cinza);
   text-align: center;
@@ -54,15 +60,17 @@
   margin: 0 15%;
 }
 .redes-sociais a {
-  width: 2.5rem;
-  height: 2.5rem;
+  padding: 1rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
   background-color: var(--verde);
-  margin: 2rem 1rem 0 1rem;
+  margin: .5rem 1rem 0 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .whatsapp,
 .telefone,
 .email {
@@ -73,6 +81,7 @@
 .email img {
   width: 2rem;
   height: 2rem;
+  margin-left: 0.8rem;
 }
 .email a {
   font-size: 100%;
@@ -121,8 +130,40 @@ input::placeholder,
   font-weight: 400;
   border: none;
 }
+.logo-contato{
+  display: none;
+}
+.mobile{
+  display: block;
+}
+.desktop{
+  display: none;
+}
 
-
-@media screen and (min-width: 768px) {
-
+@media screen and (min-width: 1024px) {
+  .contato {
+    width: 60vw;
+    flex-direction: row-reverse;
+  }
+  .esquerda-contato,.direita-contato{
+    width: 50%;
+  }
+  .redes-sociais{
+    display: none;
+  }
+  .logo-contato{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  .logo-contato img{
+    width: 60%;
+    height: auto;
+  }
+  .mobile{
+    display: none;
+  }
+  .desktop{
+    display: block;
+  }
 }
