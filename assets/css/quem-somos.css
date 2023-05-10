@@ -52,6 +52,7 @@
   }
   #img-quem-somos{
     display: block;
-    width: 30vw;
+    width: 40vw;
+    padding-right: 5rem;
   }
 }
