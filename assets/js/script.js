@@ -1,24 +1,3 @@
-const swiper = new Swiper(".swiper", {  
-  
-  pagination: {
-    el: ".swiper-pagination",
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  
-});
-const swiper1 = new Swiper(".swiperhome", {
-  slidesPerView: 2,
-  loop: true,
-  speed:7000,
-  disableOnInteraction:false,
-  autoplay: {
-    delay: 5000,
-  },
-});
-
 $(".menu-hamburguer").click(function () {
   $(".menu").removeClass("right");
   $("#fundo-menu").css("display", "flex");
@@ -38,6 +17,6 @@ $(".click").click(function () {
   }, 450);
 });
 
-$("#img-scroll").click(function(){
+$("#img-scroll").click(function () {
   $("html, body").animate({ scrollTop: 0 }, "slow");
 });
