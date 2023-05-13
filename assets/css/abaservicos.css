@@ -51,5 +51,7 @@
         width: 30vw;
         padding: 1rem 0;
     }
-
+    .aba-servicos details p{
+        width: 50vw;
+    }
 }
