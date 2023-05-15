@@ -1,3 +1,7 @@
+.grama,.poliesportiva,.asfaltico{
+  display: none;
+}
+
 .servicos{
   display: flex;
   justify-content: center;
@@ -76,6 +80,9 @@
   text-align: center;
 }
 @media screen and (min-width: 768px) {
+  .grama,.poliesportiva,.asfaltico{
+    display: flex;
+  }
   .container-servicos {
     display: flex;
     flex-wrap: wrap;
@@ -119,6 +126,9 @@
   }
 }
 @media screen and (min-width: 1024px) {
+  .grama,.poliesportiva,.asfaltico{
+    display: flex;
+  }
   .container-servicos {
     display: flex;
     flex-wrap: wrap;
