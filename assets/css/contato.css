@@ -142,10 +142,7 @@ input::placeholder,
 
 @media screen and (min-width: 1024px) {
   #contato {
-    background-repeat: no-repeat;
     background-position: top center;
-    background-size: cover;
-    background-color: var(--verde);
   }
   .contato {
     width: 60vw;
