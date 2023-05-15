@@ -54,6 +54,7 @@
   #img-quem-somos{
     display: block;
     width: 100%;
+    max-height: 50vh;
     padding-right: 5rem;
   }
 }
