@@ -1,22 +1,23 @@
-$(".menu-hamburguer").click(function () {
-  $(".menu").removeClass("right");
-  $("#fundo-menu").css("display", "flex");
+$(".menu-hamburguer").click(function() {
+  toggleMenu(true);
 });
 
-$("#botao-fechar").click(function () {
-  $(".menu").addClass("right");
-  setTimeout(() => {
-    $("#fundo-menu").css("display", "none");
-  }, 450);
+$("#botao-fechar, .click").click(function() {
+  toggleMenu(false);
 });
 
-$(".click").click(function () {
-  $(".menu").addClass("right");
-  setTimeout(() => {
-    $("#fundo-menu").css("display", "none");
-  }, 450);
-});
-
-$("#img-scroll").click(function () {
+$("#img-scroll").click(function() {
   $("html, body").animate({ scrollTop: 0 }, "slow");
 });
+
+function toggleMenu(open) {
+  if (open) {
+    $(".menu").removeClass("right");
+    $("#fundo-menu").css("display", "flex");
+  } else {
+    $(".menu").addClass("right");
+    setTimeout(function() {
+      $("#fundo-menu").css("display", "none");
+    }, 450);
+  }
+}

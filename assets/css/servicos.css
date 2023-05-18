@@ -1,8 +1,10 @@
-.grama,.poliesportiva,.asfaltico{
+.grama,
+.poliesportiva,
+.asfaltico {
   display: none;
 }
 
-.servicos{
+.servicos {
   display: flex;
   justify-content: center;
   align-items: start;
@@ -27,11 +29,11 @@
   margin: 0 0 1rem 2rem;
   width: 80vw;
 }
-.card-servicos{
+.card-servicos {
   position: relative;
   width: 100vw;
   height: 32vh;
-  margin-bottom:3.5rem;
+  margin-bottom: 3.5rem;
 }
 .card-servicos img {
   width: 100%;
@@ -39,7 +41,7 @@
   opacity: 90%;
   position: relative;
 }
-.titulo-card{
+.titulo-card {
   position: absolute;
   font-size: 1.1rem;
   font-weight: var(--regular);
@@ -59,7 +61,7 @@
   font-weight: var(--bold);
   color: var(--cinza);
 }
-.div-bnt-servicos{
+.div-bnt-servicos {
   width: 100vw;
   display: flex;
   align-items: center;
@@ -80,7 +82,9 @@
   text-align: center;
 }
 @media screen and (min-width: 768px) {
-  .grama,.poliesportiva,.asfaltico{
+  .grama,
+  .poliesportiva,
+  .asfaltico {
     display: flex;
   }
   .container-servicos {
@@ -126,7 +130,9 @@
   }
 }
 @media screen and (min-width: 1024px) {
-  .grama,.poliesportiva,.asfaltico{
+  .grama,
+  .poliesportiva,
+  .asfaltico {
     display: flex;
   }
   .container-servicos {
