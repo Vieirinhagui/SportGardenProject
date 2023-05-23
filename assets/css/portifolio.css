@@ -45,11 +45,15 @@
 }
 
 @media screen and (min-width: 768px) {
+  
   #portifolio .swiper-slide img {
     width: 50%;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
+  #portifolio {
+    padding: 2rem 10rem;
+  }
   #portifolio .swiper-slide img {
     width: 40%;
   }
