@@ -1,12 +1,12 @@
-$(".menu-hamburguer").click(function() {
+$(".menu-hamburguer").click(function () {
   toggleMenu(true);
 });
 
-$("#botao-fechar, .click").click(function() {
+$("#botao-fechar, .click").click(function () {
   toggleMenu(false);
 });
 
-$("#img-scroll").click(function() {
+$("#img-scroll").click(function () {
   $("html, body").animate({ scrollTop: 0 }, "slow");
 });
 
@@ -16,7 +16,7 @@ function toggleMenu(open) {
     $("#fundo-menu").css("display", "flex");
   } else {
     $(".menu").addClass("right");
-    setTimeout(function() {
+    setTimeout(function () {
       $("#fundo-menu").css("display", "none");
     }, 450);
   }

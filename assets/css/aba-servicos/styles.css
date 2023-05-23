@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap");
+@import url(../header.css);
+
+:root {
+  --verde: #9ec556;
+  --verde2: #6e8a3d;
+  --cinza: #343435;
+  --cinza-claro: #a1a1a1;
+  --cinza-muito-claro: #d9d9d9;
+  --branco: #ffff;
+  --preto: #000;
+  --fonte: "Roboto", sans-serif;
+  --thin: 100;
+  --light: 300;
+  --regular: 400;
+  --bold: 700;
+  --extra-bold: 900;
+  --font-size: 16px;
+}
+
+body {
+  width: 100vw;
+  background-color: var(--branco);
+  font-family: var(--fonte);
+  font-size: var(--font-size);
+  font-weight: var(--regular);
+  overflow-x: hidden;
+}
+main {
+  width: 100vw;
+  margin-top: 15vh;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: var(--light);
+  color: var(--cinza);
+}
+
+h1 span {
+  font-size: 2.5rem;
+  font-weight: var(--bold);
+  color: var(--cinza);
+}
+p{
+    text-align: left;
+    padding: 1rem 0;
+}
+main a{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 3rem;
+    background-color: var(--verde);
+    border-radius: 50px;
+    color: var(--cinza);
+}
+main #servicos-construcao a{
+    background-color: var(--branco);
+}
+#conteudo-principal {
+  width: 100vw;
+  text-align: center;
+  padding: 2rem;
+}
+.titulo{
+    align-self: start;
+}
+#servicos-construcao,#servicos-reforma,#servicos-manutencao {
+  width: 100vw;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#servicos-construcao{
+    background-color: var(--verde);
+}
