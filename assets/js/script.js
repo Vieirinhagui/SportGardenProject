@@ -13,9 +13,11 @@ $("#img-scroll").click(function () {
 function toggleMenu(open) {
   if (open) {
     $(".menu").removeClass("right");
+    $("#botao-fechar").removeClass("right");
     $("#fundo-menu").css("display", "flex");
   } else {
     $(".menu").addClass("right");
+    $("#botao-fechar").addClass("right");
     setTimeout(function () {
       $("#fundo-menu").css("display", "none");
     }, 450);

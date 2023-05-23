@@ -79,12 +79,36 @@ header a:hover{
   position: absolute;
   top: 3rem;
   right: 3rem;
+  animation-name: slideleftbnt;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+#botao-fechar.right {
+  animation-name: sliderightbnt;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 .menu a {
   font-size: 1.5rem;
   font-weight: var(--light);
   border-bottom: 1px solid var(--cinza-claro);
   padding: 10px 0;
+}
+@keyframes slideleftbnt {
+  from {
+    right: -80vw;
+  }
+  to {
+    right: 3rem;
+  }
+}
+@keyframes sliderightbnt {
+  from {
+    right: 3rem;
+  }
+  to {
+    right: -80vw;
+  }
 }
 @keyframes slideleft {
   from {
