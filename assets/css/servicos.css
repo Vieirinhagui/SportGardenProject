@@ -1,172 +1,103 @@
-.grama,
-.poliesportiva,
-.asfaltico {
+#servicos {
+  width: 100vw;
+  background-color: var(--verde);
+  padding: 2rem;
+  color: var(--cinza);
+}
+.titulo-servicos {
+    align-self: start;
+    font-weight: var(--light);
+    font-size: 2rem;
+    color: var(--cinza);
+  }
+#servicos img {
   display: none;
 }
 
-.servicos {
+#servicos div {
   display: flex;
-  justify-content: center;
-  align-items: start;
   flex-direction: column;
-}
-.servicos h1 {
-  font-size: 2.5rem;
-  font-weight: var(--light);
-  color: var(--cinza);
-  margin: 2rem 0 1rem 2rem;
-}
-
-.servicos h1 span {
-  font-size: 3rem;
-  font-weight: var(--bold);
-  color: var(--cinza);
-}
-
-.servicos p {
-  font-size: 16px;
-  color: var(--cinza);
-  margin: 0 0 1rem 2rem;
-  width: 80vw;
-}
-.card-servicos {
-  position: relative;
-  width: 100vw;
-  height: 32vh;
-  margin-bottom: 3.5rem;
-}
-.card-servicos img {
-  width: 100%;
-  height: 100%;
-  opacity: 90%;
-  position: relative;
-}
-.titulo-card {
-  position: absolute;
-  font-size: 1.1rem;
-  font-weight: var(--regular);
-  color: var(--cinza);
-  background-color: var(--verde);
-  width: 50%;
-  height: 4rem;
-  padding: 0.5rem 0.8rem;
-  border-radius: 0 15px 0 0;
-  left: 0;
-  bottom: 0;
-  text-align: center;
-}
-
-.titulo-card span {
-  font-size: 1.3rem;
-  font-weight: var(--bold);
-  color: var(--cinza);
-}
-.div-bnt-servicos {
-  width: 100vw;
-  display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 3rem;
+  gap: 1rem;
 }
-.bnt-servicos {
-  height: 3.5rem;
-  width: 10rem;
-  background-color: var(--verde);
-  color: var(--cinza);
+#servicos div a {
+  background-color: var(--branco);
+  padding: 0.5rem 1rem;
   border-radius: 50px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.2em;
-  text-align: center;
 }
 @media screen and (min-width: 768px) {
-  .grama,
-  .poliesportiva,
-  .asfaltico {
-    display: flex;
+  #servicos {
+    padding: 2rem 5rem;
   }
-  .container-servicos {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-  }
-  .saibro,
-  .asfaltico,
-  .areia,
-  .poliesportiva,
-  .grama {
-    width: 48vw;
-    margin: 0 0 1rem 0;
-  }
-  .poliesportiva h2 {
-    width: 60%;
-  }
-
-  .info-saibro,
-  .info-asfaltico,
-  .info-areia,
-  .info-poliesportiva,
-  .info-grama {
-    width: 99vw;
-    align-items: center;
-  }
-  .info-saibro,
-  .info-grama {
-    left: -50vw;
-  }
-  .info-poliesportiva {
-    left: -53%;
-  }
-  .info-saibro img,
-  .info-asfaltico img,
-  .info-areia img,
-  .info-poliesportiva img,
-  .info-grama img {
-    width: 50vw;
+  #servicos p {
+    padding: 1rem 0;
   }
 }
+
 @media screen and (min-width: 1024px) {
-  .grama,
-  .poliesportiva,
-  .asfaltico {
+  #servicos {
+    padding: 0 5rem 1rem;
     display: flex;
+    flex-direction: row;
+    gap: 3rem;
   }
-  .container-servicos {
+  .titulo-servicos {
+    align-self: start;
+    font-weight: var(--light);
+    font-size: 2rem;
+    color: var(--cinza);
+  }
+  #servicos img {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-  }
-  .saibro,
-  .asfaltico,
-  .areia,
-  .poliesportiva,
-  .grama {
-    width: 30vw;
-    margin: 0 0 1rem 0;
-  }
-  .poliesportiva h2 {
-    width: 60%;
+    width: 40vw;
   }
 
-  .info-saibro,
-  .info-asfaltico,
-  .info-areia,
-  .info-poliesportiva,
-  .info-grama {
-    width: 100vw;
+  #servicos div {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    padding-top: 2rem;
   }
-  .info-saibro img,
-  .info-asfaltico img,
-  .info-areia img,
-  .info-poliesportiva img,
-  .info-grama img {
-    width: 50vw;
+  #servicos div a {
+    background-color: var(--branco);
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #servicos {
+    padding: 0 10rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
+  .titulo-servicos {
+    align-self: start;
+    font-weight: var(--light);
+    font-size: 2rem;
+    color: var(--cinza);
+  }
+  #servicos img {
+    display: block;
+    width: 40vw;
+  }
+
+  #servicos div {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    padding-top: 2rem;
+  }
+  #servicos div a {
+    background-color: var(--branco);
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
   }
 }

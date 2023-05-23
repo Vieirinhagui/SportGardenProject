@@ -1,0 +1,42 @@
+#sobre-nos{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+#sobre-nos h1{
+    font-weight: var(--light);
+    font-size: 2rem;
+    color: var(--cinza);
+}
+h1 span{
+    font-weight: var(--extra-bold);
+    font-size: 2.5rem;
+}
+#sobre-nos p{
+    font-weight: var(--regular);
+    padding: 1rem 0;
+}
+
+@media screen and (min-width:768px){
+    #sobre-nos{
+        padding: 2rem 5rem;
+    }
+}
+@media screen and (min-width:1024px){
+    #sobre-nos{
+        padding: 2rem 10rem;
+        flex-direction: row;
+    }
+    #sobre-nos div{
+        width: 50vw;
+    }
+    #sobre-nos p{
+        text-align: justify;
+    }
+}

@@ -26,15 +26,8 @@
   justify-content: center;
 }
 .swiper-button-prev,
-.swiper-button-next,
-.swiper-pagination {
+.swiper-button-next {
   color: var(--cinza);
-}
-.swiper-pagination {
-  top: 3rem;
-}
-.swiper-pagination-bullet-active {
-  background-color: var(--cinza);
 }
 
 .bnt-ver-mais-portifolio{
