@@ -23,27 +23,27 @@ body {
   font-weight: var(--regular);
 }
 
-
 #aba-portifolio {
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 15vh;
+  margin-top: 15vh;
+  padding: 1rem 2rem;
 }
 
-#aba-portifolio .conteudo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    width: 80vw;
-    padding: 3rem 0;
+#aba-portifolio .conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 80vw;
+  padding: 3rem 0;
 }
-#aba-portifolio .conteudo h1{
-    font-size: 36px;
+#aba-portifolio .conteudo h1 {
+  font-size: 36px;
 }
 .aba-portifolio {
   display: flex;
@@ -57,20 +57,27 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  #aba-portifolio {
+    padding: 1rem 5rem;
+  }
+
   .aba-portifolio {
     flex-direction: row;
     flex-wrap: wrap;
   }
   .aba-portifolio img {
-    width: 40vw;
+    width: 35vw;
   }
 }
 @media screen and (min-width: 1024px) {
+  #aba-portifolio {
+    padding: 1rem 10rem;
+  }
   .aba-portifolio {
     flex-direction: row;
     flex-wrap: wrap;
   }
   .aba-portifolio img {
-    width: 30vw;
+    width: 25vw;
   }
 }
