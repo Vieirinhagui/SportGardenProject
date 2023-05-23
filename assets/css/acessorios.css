@@ -35,11 +35,17 @@
 }
 
 @media screen and (min-width: 768px) {
+  #acessorios {
+    padding: 2rem 5rem;
+  }
   #acessorios .swiper-slide img {
     width: 50%;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
+  #acessorios {
+    padding: 2rem 10rem;
+  }
   #acessorios .swiper-slide img {
     width: 40%;
   }

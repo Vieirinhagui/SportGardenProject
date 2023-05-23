@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
-
+@import url(../header.css);
 
 :root {
   --verde: #9ec556;
@@ -21,4 +21,56 @@ body {
   font-family: var(--fonte);
   font-size: var(--font-size);
   font-weight: var(--regular);
+}
+
+
+#aba-portifolio {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 15vh;
+}
+
+#aba-portifolio .conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 80vw;
+    padding: 3rem 0;
+}
+#aba-portifolio .conteudo h1{
+    font-size: 36px;
+}
+.aba-portifolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.aba-portifolio img {
+  width: 90vw;
+}
+
+@media screen and (min-width: 768px) {
+  .aba-portifolio {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .aba-portifolio img {
+    width: 40vw;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .aba-portifolio {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .aba-portifolio img {
+    width: 30vw;
+  }
 }
