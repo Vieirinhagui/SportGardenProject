@@ -1,42 +1,49 @@
-#sobre-nos{
-    width: 100vw;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    padding: 2rem;
-    gap: 2rem;
+#sobre-nos {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
 }
 
-#sobre-nos h1{
-    font-weight: var(--light);
-    font-size: 2rem;
-    color: var(--cinza);
+#sobre-nos h1 {
+  font-weight: var(--light);
+  font-size: 2rem;
+  color: var(--cinza);
+  
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.4);
 }
-h1 span{
-    font-weight: var(--extra-bold);
-    font-size: 2.5rem;
+h1 span {
+  font-weight: var(--extra-bold);
+  font-size: 2.5rem;
 }
-#sobre-nos p{
-    font-weight: var(--regular);
-    padding: 1rem 0;
+#sobre-nos p {
+  font-weight: var(--regular);
+  padding: 1rem 0;
+}
+#quem-somos {
+    -webkit-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
 }
 
-@media screen and (min-width:768px){
-    #sobre-nos{
-        padding: 2rem 5rem;
-    }
+@media screen and (min-width: 768px) {
+  #sobre-nos {
+    padding: 2rem 5rem;
+  }
 }
-@media screen and (min-width:1024px){
-    #sobre-nos{
-        padding: 2rem 10rem;
-        flex-direction: row;
-    }
-    #sobre-nos div{
-        width: 50vw;
-    }
-    #sobre-nos p{
-        text-align: justify;
-    }
+@media screen and (min-width: 1024px) {
+  #sobre-nos {
+    padding: 2rem 10rem;
+    flex-direction: row;
+  }
+  #sobre-nos div {
+    width: 50vw;
+  }
+  #sobre-nos p {
+    text-align: justify;
+  }
 }

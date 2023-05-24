@@ -32,6 +32,10 @@
   justify-content: center;
   align-items: center;
   margin: 4rem auto 2rem auto;
+  
+  -webkit-box-shadow: 0px 10px 50px -10px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0px 10px 50px -10px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 10px 50px -10px rgba(255, 255, 255, 0.5);
 }
 
 @media screen and (min-width: 768px) {
