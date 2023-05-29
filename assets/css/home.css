@@ -13,36 +13,27 @@
 #home .swiper-slide {
   text-align: center;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 #home .swiperhome{
-  width: 200vw;
+  width: 100vw;
 }
 @media screen and (min-width: 768px) {
-  #home .swiper-slide img {
-    width: 100vw;
-  }
-  #home .swiperhome{
-    width: 200vw;
+  #home {
+    margin-top: -8vh;
   }
 }
 @media screen and (min-width: 1024px) {
   #home {
-    width: 100vw;
-    height: 83vh;
-    background-color: var(--verde);
-    overflow: hidden;
+    margin-top: -3vh;
   }
-  #home .swiper-slide img {
-    width: 100vw;
-    height: 100vh;
-  }
-  #home .swiper-slide {
-    display: block;
-  }
-  #home .swiperhome{
-    width: 200vw;
+}
+@media screen and (min-width: 1440px) {
+  #home {
+    height: 110vh;
+    margin-top: -20vh;
   }
 }
 /* 

@@ -13,7 +13,6 @@
   font-weight: var(--light);
   font-size: 2rem;
   color: var(--cinza);
-  
   text-shadow: 2px 2px 10px rgba(0,0,0,0.4);
 }
 h1 span {
@@ -23,11 +22,6 @@ h1 span {
 #sobre-nos p {
   font-weight: var(--regular);
   padding: 1rem 0;
-}
-#quem-somos {
-    -webkit-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
-    -moz-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
-    box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
 }
 
 @media screen and (min-width: 768px) {
