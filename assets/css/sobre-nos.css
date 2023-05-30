@@ -13,7 +13,6 @@
   font-weight: var(--light);
   font-size: 2rem;
   color: var(--cinza);
-  text-shadow: 2px 2px 10px rgba(0,0,0,0.4);
 }
 h1 span {
   font-weight: var(--extra-bold);
